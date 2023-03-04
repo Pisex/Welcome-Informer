@@ -1,0 +1,99 @@
+"Phrases"
+{
+	// {1} - Имя игрока
+	// {2} - Вип-группа игрока
+	// {3} - Страна
+	// {4} - Город
+	// {5} - Ранг
+	// {6} - Является ли админом
+	// {7} - Место в топе
+	// {8} - Количество опыта
+	// {9} - Количество кредитов
+	// Цветной чат
+	//{DEFAULT} {RED} {LIGHTPURPLE} 
+	//{GREEN} {LIME} {LIGHTGREEN}
+	//{LIGHTRED} {GRAY} {LIGHTOLIVE} 
+	//{OLIVE} {LIGHTBLUE} {BLUE} {PURPLE} {GRAYBLUE}
+	"hello"
+	{
+		"#format"	"{1:N}"
+		"ru"		"{DEFAULT}Игрок {GREEN}{1} {DEFAULT}подключился к серверу\n"
+		"en"		"{DEFAULT}Игрок {GREEN}{1} {DEFAULT}подключился к серверу\n"
+	}
+
+	"exit"
+	{
+		"#format"	"{1:N}"
+		"ru"		"{DEFAULT}Игрок {GREEN}{1} {DEFAULT}отключился от сервера\n"
+		"en"		"{DEFAULT}Игрок {GREEN}{1} {DEFAULT}отключился от сервера\n"
+	}
+	
+	"rank_session"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{DEFAULT}Статистика за сессию: {GREEN}{1}\n"
+		"en"		"{DEFAULT}Статистика за сессию: {GREEN}{1}\n"
+	}
+
+	"geo_text"
+	{
+		"ru"	"{RED}- {DEFAULT}Местоположение: "
+		"en"	"{RED}- {DEFAULT}Местоположение: "
+	}
+
+	"geo_city"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1}"
+		"en"		"{1}"
+	}
+
+	"geo_country"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{1}"
+		"en"		"{1}"
+	}
+	
+	"rank"
+	{
+		"#format"	"{1:t}"
+		"ru"		"{RED}- {DEFAULT}Ранг: {GREEN}{1}"
+		"en"		"{RED}- {DEFAULT}Ранг: {GREEN}{1}"
+	}
+	
+	"rank_top"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{DEFAULT}Место: {GREEN}{1}"
+		"en"		"{DEFAULT}Место: {GREEN}{1}"
+	}
+	
+	"rank_xp"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{DEFAULT}Опыт: {GREEN}{1}"
+		"en"		"{DEFAULT}Опыт: {GREEN}{1}"
+	}
+	
+	"credits"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{RED}- {DEFAULT}Количество его кредитов: {GREEN}{1}\n"
+		"en"		"{RED}- {DEFAULT}Количество его кредитов: {GREEN}{1}\n"
+	}
+	
+	"credits_session"
+	{
+		"#format"	"{1:i}"
+		"ru"		"{RED}- {DEFAULT}Кредитов за сессию: {GREEN}{1}\n"
+		"en"		"{RED}- {DEFAULT}Кредитов за сессию: {GREEN}{1}\n"
+	}
+
+	"vip"
+	{
+		"#format"	"{1:s}"
+		"ru"		"{RED}- {DEFAULT}Вип-Группа: {GREEN}{1}\n"
+		"en"		"{RED}- {DEFAULT}Вип-Группа: {GREEN}{1}\n"
+	}
+}
